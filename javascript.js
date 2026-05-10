@@ -34,3 +34,5 @@ const observer = new MutationObserver((mutations) => {
 observer.observe(chatContainer, { childList: true });
 
 console.log("GRIK Chat Logic Loaded: Limit " + MAX_MESSAGES);
+
+//https://socialstream.ninja/view.html?session=aGeGkc7VtZ&css=https://raw.githubusercontent.com/DonGrobby/grik_chat/blob/main/style.css&js=https://raw.githubusercontent.com/DonGrobby/grik_chat/blob/main/javascript.js
