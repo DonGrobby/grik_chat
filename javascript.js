@@ -21,11 +21,11 @@
 //     testBox.innerText = 'JS VIVO';
 
     // Lo inyectamos al body
-    document.body.appendChild(testBox);
+//     document.body.appendChild(testBox);
     
-    // Cambiamos el fondo del body a un color chillón para confirmar
-    document.body.style.border = "5px solid yellow";
-})();
+//     // Cambiamos el fondo del body a un color chillón para confirmar
+//     document.body.style.border = "5px solid yellow";
+// })();
 
 // Configuración de GRIK
 const MAX_MESSAGES = 3; // Límite estricto de mensajes en pantalla
