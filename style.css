@@ -1,0 +1,40 @@
+/* Layout maestro: Anclado al fondo */
+#chat-history {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-end !important;
+    height: 100vh !important;
+    width: 100% !important;
+    background: transparent !important;
+    padding-bottom: 10px;
+    overflow: hidden !important;
+}
+
+/* Estilo de la caja de mensaje GRIK */
+.highlight-chat {
+    background: rgba(10, 10, 10, 0.8) !important;
+    border-left: 4px solid #00f2ff !important;
+    margin: 5px 10px !important;
+    padding: 12px !important;
+    border-radius: 0 8px 8px 0;
+    width: fit-content;
+    max-width: 90%;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Tipografía y Neón */
+.hl-name {
+    color: #00f2ff !important;
+    font-weight: 800 !important;
+    text-transform: uppercase;
+    text-shadow: 0 0 8px rgba(0, 242, 255, 0.5);
+    font-size: 14px;
+}
+
+.hl-message {
+    color: #ffffff !important;
+    font-size: 16px;
+}
+
+/* Ocultar basura de UI */
+.time-arrived, .queueid { display: none !important; }
